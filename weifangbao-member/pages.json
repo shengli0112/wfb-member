@@ -1,0 +1,569 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/product/product",
+			"style": {
+				"navigationBarTitleText": "详情展示",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/goods/recommend",
+			"style": {
+				// "navigationBarTitleText": "为你推荐",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/product/evaluation",
+			"style": {
+				"navigationBarTitleText": "商品评价"
+				// "app-plus": {
+				// 	"titleNView": {
+				// 		"type": "transparent"
+				// 	}
+				// }
+			}
+		},
+		{
+			"path": "pages/set/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "全部楼盘"
+			}
+		},
+		{
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarTitleText": "",
+				// "navigationStyle": "custom",
+				"app-plus": {
+					// "titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/public/register",
+			"style": {
+				"navigationBarTitleText": "",
+				// "navigationStyle": "custom",
+				"app-plus": {
+					// "titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/public/forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码-输入手机号",
+				// "navigationStyle": "custom",
+				"app-plus": {
+					// "titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/public/getCode",
+			"style": {
+				"navigationBarTitleText": "获取验证码",
+				// "navigationStyle": "custom",
+				"app-plus": {
+					// "titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/public/resetPassWord",
+			"style": {
+				"navigationBarTitleText": "设置密码",
+				// "navigationStyle": "custom",
+				"app-plus": {
+					// "titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/public/protocol",
+			"style": {
+				"navigationBarTitleText": "注册协议",
+				// "navigationStyle": "custom",
+				"app-plus": {
+					// "titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				// "navigationBarTextStyle": "white",
+				// #ifdef MP
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "\ue60f",
+								"fontSize": "42upx",
+								"color": "#303133",
+								// "width": "46px",
+								"background": "rgba(0,0,0,0)"
+							}
+							// {
+							//   "fontSrc": "/static/yticon.ttf",
+							//   "text": "\ue744",
+							//   "fontSize": "48upx",
+							//   "color": "#303133",
+							//   "background": "rgba(0,0,0,0)",
+							//   "redDot": true
+							// }
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的交易",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/order/orderDetail",
+			"style": {
+				"navigationBarTitleText": "交易详情"
+			}
+		},
+		{
+			"path": "pages/order/createOrder",
+			"style": {
+				"navigationBarTitleText": "创建订单"
+			}
+		},
+		{
+			"path": "pages/notice/notice",
+			"style": {
+				"navigationBarTitleText": "通知"
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/product/list",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "商品列表"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+			// "style": {
+			//   "app-plus": {
+			//     "titleNView": {
+			//       "searchInput": {
+			//         "borderRadius": "16px",
+			//         "placeholder": "在千万海外商品中搜索",
+			//         "placeholderColor": "#606266",
+			//         "autoFocus": true,
+			//         "backgroundColor": "#F8F8F8",
+			//         "align": "left"
+			//       }
+			//     }
+			//   }
+			// }
+		},
+		{
+			"path": "pages/search/searchDetails",
+			"style": {
+				"navigationBarTitleText": "搜索列表"
+			}
+		},
+		{
+			"path": "pages/shop/shop",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+			"path": "pages/store/store",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "店铺"
+			}
+		},
+		{
+			"path": "pages/store/storeDetails",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "店铺详情"
+			}
+		},
+		{
+			"path": "pages/store/storeSearch",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/evaluation/evaluation",
+			"style": {
+				"navigationBarTitleText": "评价中心"
+			}
+		},
+		{
+			"path": "pages/evaluation/writeEva",
+			"style": {
+				"navigationBarTitleText": "评价"
+			}
+		},
+		{
+			"path": "pages/evaluation/evaDetail",
+			"style": {
+				"navigationBarTitleText": "评价详情"
+			}
+		},
+		{
+			"path": "pages/product/evaDetails",
+			"style": {
+				"navigationBarTitleText": "评价详情"
+			}
+		},
+		{
+			"path": "pages/account/account",
+			"style": {
+				"navigationBarTitleText": "我的账户"
+			}
+		},
+		{
+			"path": "pages/account/record",
+			"style": {
+				"navigationBarTitleText": "金币收支记录"
+			}
+		},
+		{
+			"path": "pages/account/withdrawal",
+			"style": {
+				"navigationBarTitleText": "我的账户"
+			}
+		},
+		{
+			"path": "pages/group/myGroup",
+			"style": {
+				"navigationBarTitleText": "我的拼团"
+			}
+		},
+		{
+			"path": "pages/group/groupDetail",
+			"style": {
+				"navigationBarTitleText": "拼团详情"
+			}
+		},
+		{
+			"path": "pages/account/invitate",
+			"style": {
+				"navigationBarTitleText": "邀请好友赢好礼"
+			}
+		},
+		{
+			"path": "pages/account/myInvitate",
+			"style": {
+				"navigationBarTitleText": "我的邀请"
+			}
+		},
+		{
+			"path": "pages/account/invitateFriend",
+			"style": {
+				"navigationBarTitleText": "我的邀请的好友"
+			}
+		},
+		{
+			"path": "pages/account/invitateMoney",
+			"style": {
+				"navigationBarTitleText": "返利记录"
+			}
+		},
+		{
+			"path": "pages/public/amend",
+			"style": {
+				"navigationBarTitleText": "安全中心"
+			}
+		},
+		{
+			"path": "pages/set/opinion",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		},
+		{
+			"path": "pages/set/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/set/statement",
+			"style": {
+				"navigationBarTitleText": "平台声明"
+			}
+		},
+		{
+			"path": "pages/set/privacy",
+			"style": {
+				"navigationBarTitleText": "隐私条款"
+			}
+		},
+		{
+			"path": "pages/set/aboutXb",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/public/userInfo",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/public/nickname",
+			"style": {
+				"navigationBarTitleText": "修改昵称"
+			}
+		},
+		{
+			"path": "pages/set/resetPassWord",
+			"style": {
+				"navigationBarTitleText": "密码修改"
+			}
+		},
+		{
+			"path": "pages/set/resetPhoneNumber",
+			"style": {
+				"navigationBarTitleText": "修改手机号"
+			}
+		},
+		{
+			"path": "pages/merchants/merchants",
+			"style": {
+				"navigationBarTitleText": "商家入驻"
+			}
+		},
+		{
+			"path": "pages/merchants/certification",
+			"style": {
+				"navigationBarTitleText": "资质认证"
+			}
+		},
+		{
+			"path": "pages/store/collectStore",
+			"style": {
+				"navigationBarTitleText": "店铺关注"
+			}
+		},
+		{
+			"path": "pages/goods/collectGoods",
+			"style": {
+				"navigationBarTitleText": "商品收藏"
+			}
+		},
+		{
+			"path": "pages/public/navUrl",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/public/empty",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/release/release",
+			"style": {
+				"navigationBarTitleText": "微房宝"
+			}
+		},
+    {
+    	"path": "pages/release/releaseAll",
+    	"style": {
+    		"navigationBarTitleText": "微房宝"
+    	}
+    },
+		{
+			"path": "pages/myHouses/myHouse",
+			"style": {
+				"navigationBarTitleText": "我的楼盘"
+			}
+		},
+		{
+			"path": "pages/user/approve",
+			"style": {
+				"navigationBarTitleText": "认证"
+			}
+		},
+		{
+			"path": "pages/user/addUser",
+			"style": {
+				"navigationBarTitleText": "添加客户"
+			}
+		},
+		{
+			"path": "pages/user/myUser",
+			"style": {
+				"navigationBarTitleText": "我的客户"
+			}
+		},
+		{
+			"path": "pages/housesDetails/housesDetail",
+			"style": {
+				"navigationBarTitleText": "楼盘详情"
+			}
+		},
+		{
+			"path": "pages/housesDetails/error",
+			"style": {
+				"navigationBarTitleText": "楼盘纠错"
+			}
+		},
+		{
+			"path": "pages/user/newReport",
+			"style": {
+				"navigationBarTitleText": "新增报备"
+			}
+		},
+		{
+			"path": "pages/findHouse/findHouse",
+			"style": {
+				"navigationBarTitleText": "帮找房"
+			}
+		}, 
+		{ 
+			"path" : "components/phone-directory/pages/phones/phone-search", 
+			"style" : { 
+				"navigationBarTitleText" : "搜索联系人"
+			} 
+		}, 
+		{ 
+			"path" : "pages/user/houseList", 
+			"style" : { 
+				"navigationBarTitleText" : "楼盘列表"
+			} 
+		}, 
+		{ 
+			"path" : "pages/user/reportHouse", 
+			"style" : { 
+				"navigationBarTitleText" : "报备客户"
+			} 
+		}, 
+		{ 
+			"path" : "pages/user/reportHouseDetail", 
+			"style" : { 
+				"navigationBarTitleText" : "报备详情"
+			} 
+		}, 
+		{ 
+			"path" : "pages/housesDetails/imageDetail", 
+			"style" : { 
+				"navigationBarTitleText" : "图片详情"
+			} 
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#f8f8f8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#3171F2",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+    "iconWidth":"56px",
+    "height":"250px",
+    "fontSize":"25px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/index1.png",
+				"selectedIconPath": "static/img/index2.png",
+				"text": "首页"
+			},
+
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/img/house1.png",
+				"selectedIconPath": "static/img/house2.png",
+				"text": "全部楼盘"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/img/user1.png",
+				"selectedIconPath": "static/img/user2.png",
+				"text": "我的"
+			}
+		]
+	}
+}
